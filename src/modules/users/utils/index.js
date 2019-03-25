@@ -1,3 +1,4 @@
+const { Redis } = require('../../db');
 
 async function getUserFromRedis(email) {
     return new Promise((resolve, reject) => {

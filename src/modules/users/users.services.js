@@ -1,5 +1,4 @@
 const uuid4 = require('uuid/v4');
-const { Redis } = require('../../db');
 const {
   UserNotFoundError, InvalidSubscriptionKeyError,
   InvalidUserTypeError, DuplicateUserError, 
